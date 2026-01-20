@@ -10,7 +10,7 @@ void numbersInFile(void) {
     while (true) {
         scanf("%d\n", &n);
         if (n == -1) break;
-        fprintf(fp, "Number %d: %d",count, n);
+        fprintf(fp, "Number %d: %d\n",count, n);
         count ++;
     }
     fclose(fp);
