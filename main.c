@@ -6,7 +6,7 @@ void numbersInFile(void) {
     FILE *fp = fopen("sas.txt", "w");
     int n = 0;
     int count = 1;
-    printf("Scrivi i numeri da mettere nel file (-1 esci): ");
+    printf("Write numbers to add to the file (-1 exits): ");
     while (true) {
         scanf("%d\n", &n);
         if (n == -1) break;
